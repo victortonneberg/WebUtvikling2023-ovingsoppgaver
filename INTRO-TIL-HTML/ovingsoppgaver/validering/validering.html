@@ -1,37 +1,62 @@
-<html>
-    <body>
+<!DOCTYPE html> 
+<!--Validate viser 16 errors-->
+<!--Lagt til doctype-->
+<html lang="nb"> 
+    <!--Lagt til html lang=nb-->
+
         <head>
+            <meta charset="UTF-8">
+            <!--Lagt til charset-->
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="stylesheet" type="text/css" href="style.css>
+            <link rel="stylesheet" type="text/css" href="style.css"> 
+            <!--Lagt til " etter style.css-->
             <title>Web eksamen del 1</title>
         </head>
+
+        <body> 
+            <!--Flyttet body til under head-->
         <nav>
             <h1>Logo</h1>
-                <li> <a href="#">Boatswain schooner</a></li>
-                <li> <a href="#">Account lookout</a></li>
-                <li> <a href="#">Sail ho shrouds</a></li>
+            <ul>
+                <!--Lagt til ul-->
+                <li><a href="#">Boatswain schooner</a></li>
+                <li><a href="#">Account lookout</a></li>
+                <li><a href="#">Sail ho shrouds</a></li>
+                </ul>
         </nav>
         <header>
-            <h1>Yar Pirate Ipsum</h1>
+            <h2>Yar Pirate Ipsum</h2>
             <p>Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl.</p>
             <a class="button">Les mer</a>
         </header>
-        <div id="main">
+        <div>
+            <!--Lagt til div-->
+        <main id="main">
+            <!--Endret fra div til main id-->
             <article>
-                <h1>Prow scuttle</h1>
-                <p>Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors.</p>
-                <a href="#">Les mer</a>
-            <article>
-                <h1>Jack Tar transom</h1>
-                <p>Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors.</p>
-                <a href="#">Les mer</a>
-            </article>
-            <article>
-                <h1>Trysail Sail</h1>
+                <h2>Prow scuttle</h2>
+                <!--Endret fra h1 til h2-->
                 <p>Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors.</p>
                 <a href="#">Les mer</a>
             </article>
-        </div>
+            <!--Lagt til end tag på article-->
+            <article>
+                <h2>Jack Tar transom</h2>
+                <!--Endret fra h1 til h2-->
+                <p>Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors.</p>
+                <a href="#">Les mer</a>
+            </article>
+            <!--Lagt på < før </article-->
+            <article>
+                <h2>Trysail Sail</h2>
+                <!--Endret fra h1 til h2-->
+                <p>Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors.</p>
+                <a href="#">Les mer</a>
+            </article>
+            </main>
+            <!--Avsluttet main-->
+            </div>
+            
         <footer>
             <span>Twitter</span>
             <span>Facebook</span>
